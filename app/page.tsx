@@ -1,7 +1,12 @@
+import { Button } from "@/components/ui/button";
+
 export default async function Home() {
 	return (
-		<div>
+		<section>
 			<p>KNTL</p>
-		</div>
+			<Button asChild>
+				<a href="/dashboard">To dashboard</a>
+			</Button>
+		</section>
 	);
 }
